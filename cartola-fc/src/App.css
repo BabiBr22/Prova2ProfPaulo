@@ -1,0 +1,56 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.teams-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.team {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 200px; /* Faz o card ocupar um espaço mínimo */
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.team:hover {
+    background-color: #0056b3;
+}
+
+.players-list {
+    margin-top: 20px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.player-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
